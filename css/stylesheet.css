@@ -1,0 +1,183 @@
+
+@import url(http://fonts.googleapis.com/css?family=Gloria+Hallelujah);
+
+
+
+*::selection 
+{
+    background-color:transparent;
+} 
+*::-moz-selection
+{
+    background-color:transparent;
+}
+
+
+body  
+{
+  background-color: #000;
+  font-family: arial, sans-serif;
+  text-align: center;
+  cursor: pointer;
+}
+
+h1
+{
+	color: #fff;
+}
+
+
+.timer_box_outer
+{
+	width: 400px;
+	height: 500px;
+	border: 10px solid;
+	border-color:   #f1c40f;
+	border-radius: 20px;
+	background-color: transparent;
+	text-align: center;
+	margin: auto;
+	color:  #f1c40f;
+	box-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 20px #f1c40f, 0 0 30px #f1c40f, 0 0 40px #f1c40f, 0 0 55px #f1c40f, 0 0 75px #f1c40f;
+}
+
+.plus_or_minus
+{
+	font-size: 30px;
+	padding: 10px;
+}
+
+
+.change_timer
+{
+  font-family: 'Orbitron', sans-serif;
+  padding-top: 20px;
+  width: 150px;
+  font-size: 20px;
+  display: inline-block;
+}
+
+
+.timer
+{
+ 	font: bold 125px arial, sans-serif;
+  	color: #f1c40f;
+	text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 20px #f1c40f, 0 0 30px #f1c40f, 0 0 40px #f1c40f, 0 0 55px #f1c40f, 0 0 75px #f1c40f;
+}
+
+
+.timer_box_inner
+{
+	padding: 10px;
+}
+
+
+.progress
+{
+  background-color: transparent;
+  height: 50px;
+}
+
+
+.progress-bar
+{
+  border-radius: 10px;
+  background-color:  #f1c40f;
+}
+
+
+.bottom_buttons
+{
+	width:100px;
+	display: inline-block;
+	border: 5px solid #f1c40f;
+	padding: 10px;
+	border-radius: 10px;
+
+}
+.bottom_buttons_2
+{
+	width:100px;
+	display: inline-block;
+	border: 5px solid #f1c40f;
+	padding: 10px;
+	border-radius: 10px;
+
+}
+
+
+.button_container
+{
+	font-family: 'Orbitron', sans-serif;
+	margin: auto;
+	width:250px;
+}
+
+
+/* Create the animation blocks */
+/*@keyframes spin {
+	from { transform: rotate(0deg); }
+	to { transform: rotate(360deg); }
+}
+
+/* Spinning, gradient circle; CSS only! */
+/*.circle {
+
+
+	border-radius: 50%;
+	width: 200px;
+	height: 200px; 
+	/* width and height can be anything, as long as they're equal */
+	
+/*	background-image: -moz-radial-gradient(45px 45px 45deg, circle cover, yellow 0%, orange 100%, red 95%);
+	background-image: -webkit-radial-gradient(45px 45px, circle cover, yellow, orange);
+	background-image: radial-gradient(45px 45px 45deg, circle cover, yellow 0%, orange 100%, red 95%);
+	
+	animation-name: spin; 
+	animation-duration: 3s; /* 3 seconds */
+/*	animation-iteration-count: infinite; 
+	animation-timing-function: linear;
+}
+
+h1 {
+  font: bold 50px arial, sans-serif;
+  background-color: #565656;
+  color: transparent;
+  text-shadow: 2px 2px 3px rgba(255,255,255,0.5);
+  -webkit-background-clip: text;
+     -moz-background-clip: text;
+          background-clip: text;
+}
+
+
+
+
+
+.display
+{
+	font-family: 'Orbitron', sans-serif;
+}
+
+@media only screen and (max-width: 1100px) {
+
+.calculator_case
+{
+	width: 50%;
+}
+
+
+ 
+	}
+
+@media only screen and (max-width: 699px) {
+
+.calculator_case
+{
+	width: 90%;
+}
+
+
+ 
+	}
+
+
